@@ -75,7 +75,8 @@ cd $BUILD_DIR
 
 # JavaFX
 
-curl --retry 3 -s -o javafx.zip -L https://chriswhocodes.com/downloads/openjfx-8u60-sdk-overlay-linux-amd64.zip
+#curl --retry 3 -s -o javafx.zip -L https://chriswhocodes.com/downloads/openjfx-8u60-sdk-overlay-linux-amd64.zip
+curl --retry 3 -s -o javafx.zip -L https://chriswhocodes.com/downloads/openjfx-8u60-sdk-overlay-linux-x86egl.zip
 
 if [ -d .jdk ]; then
   echo -n "       Extracting OpenJFX ... "
