@@ -5,6 +5,8 @@
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpack) for Gradle apps.
 It uses Gradle to build your application and OpenJDK to run it.
 
+Includes OpenJFX from [here (Monocle)](https://chriswhocodes.com/)
+
 ## Usage
 
 1. Install the [Gradle Wrapper](http://www.gradle.org/docs/current/userguide/gradle_wrapper.html) into your project.
