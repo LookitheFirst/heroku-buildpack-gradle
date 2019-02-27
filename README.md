@@ -1,6 +1,4 @@
-# Heroku buildpack: Gradle [![Build Status](https://travis-ci.org/heroku/heroku-buildpack-gradle.svg?branch=master)](https://travis-ci.org/heroku/heroku-buildpack-gradle)
-
-![](https://cloud.githubusercontent.com/assets/51578/18790734/e1a0bba8-817d-11e6-864e-de501a437ec5.png)
+# Heroku buildpack: Gradle + OpenJFX
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpack) for Gradle apps.
 It uses Gradle to build your application and OpenJDK to run it.
